@@ -22,7 +22,7 @@ public class MissingElement {
 		Arrays.sort(data);
 		for (int i = 0; i < data.length; i++) {
 			if(data[i+1]-data[i] != 1) {
-		    	System.out.println("5");
+		    	System.out.println(data[i]+1);
 		    }
 		}
 		
